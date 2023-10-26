@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/calendar.module.css'
 
-const calendar: NextPage = () => {
+const Calendar: NextPage = () => {
     return (
         <div className={styles.general}>
             <Head>
@@ -14,25 +14,11 @@ const calendar: NextPage = () => {
             <main>
                 <h1>DIA 1</h1>
                 <div>    
-                    <table className={styles.tabla1}>
-                        <tr>
-                            <th scope='row'></th>
-                            <th>laboratorios</th>
-                            <th>patio</th>
-                            <th>otra cosa</th>
-                        </tr>
-                        <tr>
-                            <th>9hs</th>
-                            <td>esto</td>
-                            <td>esto y aquello</td>
-                            <td>nada</td>
-                        </tr>
-                    </table>
+                    
                 </div>
             </main>
-            
         </div>
     )
 }
 
-export default calendar
+export default Calendar

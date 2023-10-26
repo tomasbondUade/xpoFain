@@ -5,12 +5,6 @@
     margin: 0 auto;
 }
 
-.tabla1{
-    text-align: center;
-    border: 10px;
-    background-color: gray;
-}
-
 @media (max-width: 600px) {
     .grid {
       width: 100%;
