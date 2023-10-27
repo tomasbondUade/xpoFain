@@ -9,12 +9,6 @@
   text-align: center;
 }
 
-.linksRedes{
-  background-color: #ffcc59;
-  display: flex;
-  justify-content: center;
-}
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
