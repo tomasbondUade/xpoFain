@@ -32,12 +32,24 @@ const Home: NextPage = () => {
           <ButtonGroup variant="text"  aria-label="">
             <Button 
             onClick={() => {
-              router.push("")
+              router.push("/ingenieria")
             }}
             >Area ingenieria</Button> 
-            <Button>Area informatica</Button>
-            <Button>Area alimentos y biociencias</Button>
-            <Button>Area ambiental</Button>
+            <Button
+            onClick={() => {
+              router.push("/informatica")
+            }}
+            >Area informatica</Button>
+            <Button
+            onClick={() => {
+              router.push("/alimbioa")
+            }}
+            >Area alimentos y biociencias</Button>
+            <Button
+            onClick={() => {
+              router.push("/ambiental")
+            }}
+            >Area ambiental</Button>
           </ButtonGroup>
         </div>
       </main>

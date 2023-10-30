@@ -41,8 +41,8 @@ export default function BasicTable() {
           <TableRow>
             <TableCell>Horarios</TableCell>
             <TableCell align="right">piso 11 labs</TableCell>
-            <TableCell align="right">Patio&nbsp;(g)</TableCell>
-            <TableCell align="right">piso 10 labs&nbsp;(g)</TableCell>
+            <TableCell align="right">Patio</TableCell>
+            <TableCell align="right">piso 10 labs</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

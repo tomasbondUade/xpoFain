@@ -3,7 +3,7 @@ import styles from '../styles/calendar.module.css'
 import BasicTable from '../components/Table'
 
 
-const Calendar: NextPage = () => {
+const Infor: NextPage = () => {
     return (
         <div className={styles.general}>
             <main>
@@ -14,4 +14,4 @@ const Calendar: NextPage = () => {
     )
 }
 
-export default Calendar
+export default Infor
