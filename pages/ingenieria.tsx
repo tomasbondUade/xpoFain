@@ -1,6 +1,12 @@
 import type { NextPage } from 'next'
-import styles from '../styles/ingenieria.module.css'
+import styles from '../styles/areas.module.css'
 import BasicStack from '../components/mainAreas'
+
+const pepito = ()=>{
+    return(
+        <p>hola</p>
+    )
+}
 
 const Ingenieria: NextPage = () => {
     return (

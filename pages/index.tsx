@@ -42,7 +42,7 @@ const Home: NextPage = () => {
             >Area informatica</Button>
             <Button
             onClick={() => {
-              router.push("/alimbioa")
+              router.push("/alimbiol")
             }}
             >Area alimentos y biociencias</Button>
             <Button

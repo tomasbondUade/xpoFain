@@ -1,14 +1,12 @@
 import type { NextPage } from 'next'
-import styles from '../styles/calendar.module.css'
-import BasicTable from '../components/Table'
-
+import styles from '../styles/areas.module.css'
+import BasicStack from '../components/mainAreas'
 
 const Calendar: NextPage = () => {
     return (
         <div className={styles.general}>
             <main>
-                <h1>DIA 1</h1>
-                <BasicTable/>
+                <BasicStack/>
             </main>
         </div>
     )
