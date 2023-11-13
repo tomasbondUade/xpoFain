@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Button from '@mui/material/Button'
 import ButtonGroup from '@mui/material/ButtonGroup'
+import BasicTable from '../components/Table'
 
 
 const Home: NextPage = () => {
@@ -17,41 +18,15 @@ const Home: NextPage = () => {
           height={400} >
         </Image>
         <div>
-          <h5>Animate a vivir una experiencia inmersiva.</h5>
+          <h2>Animate a vivir una experiencia inmersiva.</h2>
         </div>
       </header>
       <main className={styles.main}>
-        <div>          
-          <Button variant="text"
-            onClick={() => {
-              router.push("/calendar")
-            }}
-          >
-           CALENDARIO
-          </Button>
-          <ButtonGroup variant="text"  aria-label="">
-            <Button 
-            onClick={() => {
-              router.push("/ingenieria")
-            }}
-            >Area ingenieria</Button> 
-            <Button
-            onClick={() => {
-              router.push("/informatica")
-            }}
-            >Area informatica</Button>
-            <Button
-            onClick={() => {
-              router.push("/alimbiol")
-            }}
-            >Area alimentos y biociencias</Button>
-            <Button
-            onClick={() => {
-              router.push("/ambiental")
-            }}
-            >Area ambiental</Button>
-          </ButtonGroup>
-        </div>
+        <Image src='/PATIO.png'
+        alt='cronograma'
+        width={600}
+        height={800}
+        />
       </main>
     </div>
   )
