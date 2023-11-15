@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         </div>
       </header>
       <div className={styles.clima}>
-      curl --request GET --url 'https://api.tomorrow.io/v4/weather/forecast?location=42.3478,-71.0466&apikey=Z4I1AKVJy4bvLTedGokbGHb9g3fSIh3N'
+        
       </div>
       <main className={styles.main}>
         <Image src='/PATIO.png'
